@@ -1,12 +1,61 @@
+:root {
+  --standard-font-color: #F49D1A;
+}
+
 * {
   box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 60;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #434242;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.name {
+  float: left;
+  padding: 10px;
+  font-size: 60px;
+}
+
+header nav {
+  float: right;
+  padding-top: 10px;
+}
+
+header nav li{
+  float: left;
+  list-style-type: none;
+  margin:  20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--standard-font-color);
+}
+
+a:visited {
+  color: var(--standard-font-color);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #FFE15D;
 }
 
 h1,
@@ -15,9 +64,72 @@ h3,
 h4,
 h5,
 h6 {
+  color: var(--standard-font-color);
   margin: 0;
 }
 
 p {
   margin: 0;
+}
+
+/* Container holding the banner and the text */
+.container-2 {
+  position: relative;
+  font-size: 2.5em;
+  color: var(--standard-font-color);
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.span-2 {
+  color: #FFE15D;
+}
+
+.span-1 {
+  color: #820000;
+}
+
+.span-1:hover {
+  color: #FFE15D;
+}
+
+.span-2:hover {
+  color: #820000;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+
+  header nav {
+      float: none;
+      clear: left;
+      width: 100%;
+  }
+
+  header nav ul {
+      margin: 0;
+      padding: 0;
+  }
+
+  .name {
+      margin: 0 auto;
+      float: none;
+  }
+
+  header nav ul li {
+      margin: 10px 5px;
+      width: 20%;
+      padding: 0;
+      text-align: center;
+  }
+
+  .bottom-right {
+    font-size: 2rem;
+  }
+
 }
