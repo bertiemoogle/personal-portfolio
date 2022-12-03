@@ -104,10 +104,12 @@ header nav li{
 }
 
 .span-2 {
+  font-size: 48px;
   color: #FFE15D;
 }
 
 .span-1 {
+  font-size: 48px;
   color: #820000;
 }
 
@@ -257,11 +259,11 @@ h6 {
 @media screen and (max-width: 768px) {
 
 .span-1 {
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .span-2 {
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .label {
@@ -321,6 +323,14 @@ header nav ul li {
 
 @media screen and (max-width: 480px) {
 
+.span-1 {
+  font-size: 24px;
+}
+  
+.span-2 {
+  font-size: 24px;
+}
+
 #main-grid h2 {
   font-size: 6px;
   padding: 0;
@@ -346,7 +356,7 @@ header li {
 }
 
 .name {
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
 }
 
