@@ -10,4 +10,4 @@ I inserted two media query breakpoints, and eventually got the page to display d
 
 At this moment in time I don't have any projects deployed on the web - we're only two weeks into the bootcamp. But the links I have put in the grid are projects I have planned - the links go to placeholder pages. The VAT calculator I originally wrote in Python to speed up my work for the accountants I used to work for. I will be making an (hopefully) attractive interface and coding it in JavaScript. The scriptwriting app I want to make as a cheap alternative to expensive industry standard software like Final Draft. The blockchain app I will be making for my friend who is interested in that sort of thing. I have also included a link to my Github repositories, which will hopefully contain some interesting projects in the near future
 
-https://bertiemoogle.github.io/personal-portfolio/
+<https://bertiemoogle.github.io/personal-portfolio/>
